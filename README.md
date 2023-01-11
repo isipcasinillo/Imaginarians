@@ -10,6 +10,8 @@
 
 A code test sent by Imaginuity for a Junior Frontend developer position
 
+live site: https://casinillo.com/
+
 ## Installation
 
 1. create your own instance of wordpress
