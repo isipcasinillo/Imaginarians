@@ -19,9 +19,15 @@ A code test sent by Imaginuity for a Junior Frontend developer position
 ### Technology
 
 - Wordpress
+- Siteground (hosting)
+- Asana (Kanban)
+- Local by flywheel (local development)
+- Adobe xd (Design files)
 - Javascript
 - Html
-- Css
+- Css / Sass
+- Gulp (development automation)
+- ImageOptim (Image Optimization) 
 - Php
 - ** Advance custom fields
 - ** ACF Theme Code
