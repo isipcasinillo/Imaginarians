@@ -1,0 +1,41 @@
+
+.content {
+    
+    @media screen and (max-width: 375px) {
+        margin-top: 2.9%;
+    }
+
+}
+
+.sticky {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 100px;
+}
+
+
+.navbar {
+    min-height: 74px;
+    @media screen and (max-width: 375px) {
+        display: none;
+    }
+}
+
+.navbar-mini {
+    display: none;
+
+    @media screen and (max-width: 375px) {
+        display: block;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+}
