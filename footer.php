@@ -8,6 +8,7 @@
  */
 
 ?>
+ 
 
 <footer class="footer-section-container" style="background-image:url('<?php echo get_site_url(); ?>/wp-content/themes/imaginarians/app/images/footer-background-image.jpg');" alt="footer background image pattern">
     <div class="footer-section-content" >
