@@ -1,4 +1,6 @@
 
+
+
 <?php 
     $title1 = $args['data1']['title'];
     $subtitle1 = $args['data1']['subtitle'];
@@ -17,8 +19,6 @@
     };
 
 ;?>
-
-
 
 
 

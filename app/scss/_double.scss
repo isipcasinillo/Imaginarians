@@ -64,8 +64,11 @@ p {
            justify-content: flex-start;
         }
         .hero-banner-typography {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
             text-align: end;
-
+            position: relative;
             @media screen and (max-width: 1024px) {
                 text-align: start;
             }
@@ -111,7 +114,7 @@ p {
                     .hero-banner-typography {
                         max-width: 100%;
                         width:80%;
-                        margin: 62px 11%;
+                        margin: clamp(62px, 6vw,8vw) 11%;
                         @media screen and (max-width: 1024px) {
 
                             margin: 0;
@@ -135,6 +138,12 @@ p {
                             @media screen and (max-width: 375px) {
                                 max-width: 100%;
                             }
+                        }
+
+                        p {
+                            max-width: 100%;
+                            font-size: clamp(12px,1.2vw,2vw);
+                            line-height: clamp(22px,1.5vw,2vw);
                         }
                     }
                 }
@@ -170,7 +179,8 @@ p {
 
 .full-wrapper{
     // height:200%;
-    height: calc(500px + 10vw);
+    height: calc(500px + 30vw);
+    height: clamp(456px, calc(300px + 21vw), 500px + 30vw);
     width: 50%;
 }
 
