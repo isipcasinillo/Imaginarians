@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var sticky = navbar.offsetTop;
 
     function myFunction() {
-        console.log(window.pageYOffset)
     if (window.pageYOffset > 0 && window.pageYOffset >= sticky) {
         navbar.classList.add("sticky")
     } else {
