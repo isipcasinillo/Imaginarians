@@ -4,7 +4,17 @@
 
 
     .footer-section-content {
-        padding: 52px 5% 42px 5%;
+        padding: clamp(62px, 2vw, 2vw) 5%;
+
+        h2 {
+            font-size: clamp(1.875rem, 1vw, 2vw);
+        }
+
+        h3 {
+            font-size: clamp(1.125rem, 1vw, 2vw);
+            font-weight: 300;
+        }
+
         .footer-list-description{
             display: flex;
             flex-direction: row;
@@ -19,8 +29,7 @@
             li {
                 width: 32%;
                 color: white;
-                font-size: 14px;
-
+                font-size: clamp(0.875rem, 1vw, 2vw);
                 @media screen and (max-width: 889px) {
                     width: 100%;
                    
@@ -31,6 +40,11 @@
         .footer-button-container {
             display: flex;
             justify-content: center;
+
+            @media screen and (max-width: 889px) {
+                justify-content: flex-start;
+            }
+
         }
     }
 }
